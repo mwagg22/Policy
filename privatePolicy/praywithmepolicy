@@ -1,0 +1,101 @@
+# Privacy Policy for "Pray With Me - Islamic Prayer Learning App"
+
+**Last Updated:** 1/5/2026
+
+## 1. Introduction
+
+Thank you for using "Pray With Me" (the "App"). This Privacy Policy explains our practices regarding the collection, use, and disclosure of information when you use our App. We are committed to protecting your privacy and want to be transparent about our data practices.
+
+**Important:** We do **NOT** collect, store, or share any personal data from our users. This App is designed with privacy as a core principle.
+
+## 2. Information We Do NOT Collect
+
+We want to be absolutely clear about what we do NOT collect:
+
+- **No Personal Information:** We do not collect names, email addresses, phone numbers, or any personally identifiable information.
+- **No Account Information:** The App does not require registration or account creation.
+- **No Analytics Data:** We do not use any analytics tools, tracking pixels, or data collection services.
+- **No Usage Data:** We do not track how you use the App, what features you access, or when you use the App.
+- **No Financial Information:** The App is completely free with no purchases or subscriptions.
+
+## 3. Local Storage (On Your Device Only)
+
+The App uses **localStorage** on your device to store settings for your convenience. This data never leaves your device and is not accessible to us. This includes:
+
+- **Language preference** (which language you select)
+- **City/location setting** (the city you manually select for prayer times)
+- **Bookmarked duas** (duas you save for quick access)
+- **Theme preference** (light/dark mode)
+
+This data is stored locally on your device and can be cleared by uninstalling the App or clearing your browser's local storage.
+
+## 4. GPS/Location Information
+
+The App requests location permission **ONLY** for the Qibla Compass feature. Here's how this works:
+
+- **Single Use Only:** GPS is used only when you actively use the Qibla Compass feature.
+- **No Storage:** Your location coordinates are never stored, saved, or transmitted to any server.
+- **Local Calculation:** The Qibla direction is calculated locally on your device using:
+  - Your current GPS coordinates (obtained in real-time)
+  - The fixed coordinates of Mecca (21.4225°N, 39.8262°E)
+- **Immediate Discard:** Once the Qibla direction is calculated, your location data is immediately discarded.
+- **Optional:** You can use the App without granting location permission by manually selecting a city for prayer times.
+
+## 5. Prayer Times API
+
+When you select a city for prayer times, the App makes a one-time API call to fetch prayer times for that location. This process:
+
+- **Uses City Name Only:** We send only the city name you selected to the prayer time API.
+- **No Personal Data:** We do not send any personal or device information.
+- **No Tracking:** The API provider may log the request (as standard web server practice), but we do not share any identifying information with them.
+
+## 6. Audio Files
+
+All audio files (prayer recitations, dua pronunciations) are:
+- **Local Files:** Bundled with the App installation
+- **No Streaming:** Played directly from your device
+- **No Tracking:** No calls to external servers when playing audio
+
+## 7. No Third-Party Services
+
+The App does NOT use:
+- Advertising networks
+- Analytics services
+- Crash reporting tools
+- Social media integrations
+- Push notification services
+- Any other third-party data collection services
+
+## 8. Children's Privacy
+
+Our App is suitable for users of all ages. Since we do not collect any personal data, we do not have specific concerns regarding children's privacy. Parents can feel comfortable allowing children to use this App.
+
+## 9. Data Security
+
+Since we don't collect or store your data on our servers, there's no risk of data breaches from our side. The only data that exists is stored locally on your device, protected by your device's security measures.
+
+## 10. Your Rights
+
+Even though we don't collect your data, you have the right to:
+- Use the App without providing any personal information
+- Control location permissions through your device settings
+- Clear all local data by uninstalling the App
+- Understand exactly what the App does with your information (as explained in this policy)
+
+## 11. Changes to This Policy
+
+We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the "Last Updated" date.
+
+## 12. Contact Us
+
+If you have any questions about this Privacy Policy or our privacy practices, please contact us at:
+[Your email address or contact method]
+
+## 13. Compliance
+
+This Privacy Policy complies with:
+- Google Play Store requirements
+- General data protection principles
+- Best practices for privacy-focused applications
+
+---
