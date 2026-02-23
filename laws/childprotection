@@ -1,0 +1,308 @@
+# Child Protection Standards & CSAE Compliance Statement
+## For "When" Messaging Application
+
+**Last Updated: February 2025**
+
+---
+
+## 1. EXECUTIVE SUMMARY
+
+When ("the App") is committed to maintaining a safe environment for all users and strictly prohibits any activity involving child sexual abuse and exploitation (CSAE). This document outlines our comprehensive approach to preventing, detecting, and responding to CSAE-related content and behavior on our platform.
+
+---
+
+## 2. CSAE POLICIES AND PROHIBITED ACTIVITIES
+
+### 2.1 Zero-Tolerance Statement
+When expressly prohibits any content or behavior that exploits, abuses, or endangers minors. This includes but is not limited to:
+
+- **Child Sexual Abuse Material (CSAM)** – Any depiction of sexually explicit conduct involving a minor
+- **Grooming Behavior** – Adults building relationships with minors for sexual exploitation
+- **Sexual Extortion (Sextortion)** – Threatening to share intimate images to coerce minors
+- **Inappropriate Sexualized Content** – Sexual conversations, roleplay, or requests involving minors
+- **Commercial Sexual Exploitation** – Any transaction involving exploitation of minors
+
+### 2.2 Age Restrictions
+- **Minimum Age:** 13 years old (in compliance with COPPA)
+- **Age Verification:** Users must confirm they are 13+ during registration
+- **Regional Compliance:** Adherence to GDPR-K (Europe), PIPL (China), and local age of consent laws
+
+---
+
+## 3. PLATFORM DESIGN SAFEGUARDS
+
+### 3.1 Friend System Safety Features
+
+The App's friend system incorporates multiple safety-by-design elements:
+
+| Feature | Implementation | Safety Benefit |
+|---------|---------------|----------------|
+| **No Public Discovery** | Users cannot search for or discover other users publicly | Prevents strangers from finding minors |
+| **Friend Codes Only** | Unique share codes required for adding friends | Users must know someone offline to connect |
+| **No Public Profiles** | Profile information only visible to confirmed friends | Prevents data harvesting |
+| **No Location Exposure** | Location triggers never reveal coordinates to recipients | Prevents stalking/harassment |
+| **Friend Request Confirmation** | Both parties must confirm friendship | Users control their connections |
+
+### 3.2 Content Safeguards
+
+**Messaging Limitations:**
+- All content is stored and traceable (no ephemeral/vanishing messages)
+- Attachments are scanned before delivery
+- No anonymous messaging to minors
+- Reporting tools available on every letter
+
+**Media Restrictions:**
+- All uploaded images/videos are subject to hash matching against known CSAM databases
+- Audio recordings are retained for moderation review if reported
+- Drawing tools cannot bypass image moderation
+
+---
+
+## 4. DETECTION AND PREVENTION SYSTEMS
+
+### 4.1 Proactive Detection
+
+**Automated Scanning:**
+- Integration with industry-standard CSAM hash databases (PhotoDNA or similar)
+- AI-based content moderation for uploaded images
+- Text pattern detection for grooming language and inappropriate conversations
+- Metadata stripping from uploaded media
+
+**Hash Matching Protocol:**
+```
+1. All uploaded images generate a perceptual hash
+2. Hash checked against NCMEC and Interpol databases
+3. Matches trigger immediate blocking and reporting
+4. Uploading user account flagged for investigation
+```
+
+### 4.2 Behavioral Detection
+
+Automated systems monitor for suspicious patterns:
+
+- Adults rapidly adding multiple minor-aged accounts
+- Conversations with age disparity and concerning language patterns
+- Late-night messaging patterns between adults and minors
+- Attempts to share contact information to move conversations off-platform
+
+---
+
+## 5. REPORTING MECHANISMS
+
+### 5.1 In-App Reporting
+
+Every screen includes accessible reporting options:
+
+**Letter Reporting:**
+- "Report" button on every letter
+- Specific reason selection (including "Child Safety Concern")
+- Optional additional details
+
+**User Reporting:**
+- Report profile option on friend details
+- Block user functionality
+- Report specific messages within conversations
+
+### 5.2 Reporting Flow
+
+```
+User Report → Automated Triage → Human Review → Action Taken
+     ↓              ↓                  ↓              ↓
+  Report    Priority scoring    Trained moderator    Warning/Suspension/
+  received   (high for CSAE)      reviews within      Ban/Referral to
+                                      24 hours          authorities
+```
+
+### 5.3 Anonymous Reporting
+Users can report concerns without revealing their identity to the reported user.
+
+---
+
+## 6. RESPONSE PROTOCOLS
+
+### 6.1 Immediate Actions Upon CSAE Detection
+
+| Severity | Detection Method | Response |
+|----------|-----------------|----------|
+| **Critical** (Confirmed CSAM) | Automated hash match OR user report with evidence | Immediate account suspension + Content removal + NCMEC/Cybertip reporting within 24 hours |
+| **High** (Suspected grooming) | Behavioral detection OR pattern analysis | Account restriction + Human review within 12 hours + Possible reporting |
+| **Moderate** (Concerning behavior) | User report without evidence | Investigation + Warning if warranted |
+| **Low** (Policy violations) | Automated flagging | Content removal + User notification |
+
+### 6.2 Law Enforcement Cooperation
+
+When cooperates fully with:
+- **NCMEC (National Center for Missing & Exploited Children)** – Mandatory reporting for US-based incidents
+- **International Authorities** – INTERPOL and local law enforcement referrals
+- **Cybertipline** – Direct reporting of confirmed CSAM
+
+**Response Commitment:**
+- Preserve all relevant evidence (logs, content, metadata)
+- Respond to legal requests within 24-48 hours
+- Designated legal contact for law enforcement: [legal@when.app]
+
+---
+
+## 7. MODERATION TEAM AND TRAINING
+
+### 7.1 Team Structure
+- **Tier 1 Moderators:** Initial review and triage
+- **Tier 2 Specialists:** CSAE-trained moderators with psychological support
+- **Legal Team:** Law enforcement liaison and compliance
+
+### 7.2 Training Requirements
+All moderators complete:
+- Annual CSAE recognition training
+- Trauma-informed review practices
+- Legal reporting requirements training
+- Cultural sensitivity and regional law awareness
+
+### 7.3 Moderator Support
+- Regular psychological debriefing sessions
+- Limits on exposure to disturbing content
+- Mental health resources and counseling access
+
+---
+
+## 8. DATA RETENTION AND PRIVACY
+
+### 8.1 Evidence Preservation
+When CSAE is detected:
+- All relevant content preserved indefinitely for legal purposes
+- User account data frozen (cannot be deleted by user)
+- IP addresses and device information retained
+- Timestamps and interaction logs preserved
+
+### 8.2 User Privacy Protection
+- Investigations conducted confidentially
+- Reporting users' identities protected
+- Compliance with data protection laws while prioritizing child safety
+
+---
+
+## 9. TECHNICAL COMPLIANCE MEASURES
+
+### 9.1 Google Play Store Requirements
+
+**Metadata Requirements:**
+- [x] Content rating completed (Everyone 10+ with Interactive Elements)
+- [x] Privacy policy link in store listing
+- [x] App contains anti-CSAE measures disclosed
+- [x] Reporting mechanism accessible from app
+
+**Technical Requirements Met:**
+- [x] Apps cannot target users under 13
+- [x] No discovery features that could connect adults with minors
+- [x] All user-generated content is moderated
+- [x] Clear reporting flows for inappropriate content
+
+### 9.2 Additional Compliance
+
+**COPPA (Children's Online Privacy Protection Act):**
+- No knowingly collecting data from under-13 users
+- Age screen during registration
+- Parental consent mechanisms not required (app is 13+)
+
+**GDPR-K (Europe):**
+- Age verification at signup
+- Parental contact mechanisms available
+- Data minimization practices
+
+---
+
+## 10. USER SAFETY RESOURCES
+
+### 10.1 In-App Safety Information
+
+The App includes easily accessible safety resources:
+- **Safety Center** – Tips for staying safe online
+- **Reporting Guide** – How and when to report concerns
+- **External Resources** – Links to NCMEC, Cybertipline, and local child protection organizations
+
+### 10.2 Safety Messaging
+
+Users receive periodic safety reminders:
+- "Never share personal contact information"
+- "Report anything that makes you uncomfortable"
+- "You control who you connect with"
+
+---
+
+## 11. CONTACT INFORMATION
+
+### For Users:
+**Report Concerns:** [support@when.app] or in-app reporting
+
+### For Law Enforcement:
+**Legal Inquiries:** [legal@when.app]  
+**Emergency Requests:** +1-[phone number] (24/7 line)
+
+### For Child Protection Organizations:
+**Partnerships:** [safety@when.app]
+
+---
+
+## 12. POLICY UPDATES AND TRANSPARENCY
+
+### 12.1 Regular Review
+This policy is reviewed quarterly and updated:
+- When new regulations are enacted
+- When new risks are identified
+- At least annually
+
+### 12.2 Transparency Reporting
+When publishes semi-annual transparency reports including:
+- Number of CSAE reports received
+- Number of accounts removed for CSAE violations
+- Number of reports to NCMEC/law enforcement
+- Moderator training hours completed
+
+---
+
+## 13. VERIFICATION AND AUDIT
+
+The App undergoes:
+- Annual third-party safety audit
+- Regular penetration testing
+- Compliance reviews with Google Play requirements
+- CSAE prevention system effectiveness testing
+
+---
+
+## APPENDIX A: DEFINITIONS
+
+| Term | Definition |
+|------|------------|
+| **CSAM** | Child Sexual Abuse Material – Any visual depiction of sexually explicit conduct involving a minor |
+| **CSAE** | Child Sexual Abuse and Exploitation – Broader term including grooming, sextortion, and trafficking |
+| **Grooming** | Building an emotional connection with a minor to gain trust for sexual purposes |
+| **Sextortion** | Threats to share intimate images to coerce victims into providing more content or other favors |
+| **Hash Matching** | Comparing file hashes against known CSAM databases without viewing the actual content |
+
+---
+
+## APPENDIX B: REPORTING FORM TEMPLATE
+
+```
+REPORT SUBMISSION
+-----------------
+Date/Time: [auto-filled]
+Reporter User ID: [optional/anonymous]
+Reported User ID: [required]
+Reason:
+  [ ] Sexual content involving minor
+  [ ] Inappropriate conversation with minor
+  [ ] Sharing explicit images
+  [ ] Attempting to meet offline inappropriately
+  [ ] Other child safety concern
+
+Additional Details: [text field]
+Attachments: [screenshots if applicable]
+Priority: [auto-calculated]
+```
+
+---
+
+**This policy is effective as of February 2025 and supersedes all previous versions.**
+
+*When is committed to maintaining a platform free from child sexual abuse and exploitation. We actively work with industry partners, law enforcement, and child protection organizations to ensure the highest safety standards.*
