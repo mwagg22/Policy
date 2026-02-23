@@ -1,2 +1,1 @@
-# QuranMe
-quran recorder app
+# APP POLICIES
